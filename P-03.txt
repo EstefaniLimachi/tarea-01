@@ -1,0 +1,35 @@
+Características importantes de TypeScript:
+
+1. **Tipado estático**: A diferencia de JavaScript, TypeScript permite declarar los tipos de datos de las variables, lo que ayuda a detectar errores durante la etapa de desarrollo en lugar de tiempo de ejecución.
+
+2. **Compatibilidad con JavaScript**: TypeScript es un superconjunto de JavaScript, lo que significa que cualquier código JavaScript válido también es válido en TypeScript.
+
+3. **Interfaces y Tipos**: TypeScript permite definir interfaces y tipos personalizados, lo que facilita la creación de estructuras de datos más complejas y garantiza que se mantenga el control sobre el tipo de datos que se usa.
+
+4. **Soporte para ECMAScript**: TypeScript admite las últimas características de ECMAScript (ES), como clases, módulos y funciones flecha, incluso antes de que estén completamente soportadas por los navegadores.
+
+5. **Mejor autocompletado y herramientas de desarrollo**: Gracias al tipado, los editores de código como VSCode pueden proporcionar autocompletado y detección de errores más avanzados.
+
+6. **Transpilación a JavaScript**: El código TypeScript se transpila a JavaScript, lo que lo hace compatible con cualquier entorno que ejecute JavaScript, como navegadores o Node.js.
+
+Diferencias entre TypeScript y JavaScript:
+
+1. **Tipado**:
+   - **TypeScript**: Utiliza tipado estático, lo que significa que debes especificar el tipo de variables y funciones, y los errores de tipo se detectan en tiempo de compilación.
+   - **JavaScript**: No tiene tipado estático, es dinámico, lo que significa que el tipo de una variable puede cambiar en tiempo de ejecución.
+
+2. **Compatibilidad**:
+   - **TypeScript**: Es un superconjunto de JavaScript, por lo que todo código JavaScript es válido en TypeScript.
+   - **JavaScript**: No puede entender directamente el código TypeScript sin ser transpilado.
+
+3. **Errores en tiempo de desarrollo**:
+   - **TypeScript**: Los errores se detectan durante la fase de desarrollo gracias a la compilación, lo que mejora la fiabilidad del código.
+   - **JavaScript**: Los errores se detectan principalmente en tiempo de ejecución.
+
+4. **Interfaces y tipos personalizados**:
+   - **TypeScript**: Permite definir interfaces y tipos personalizados para objetos y estructuras de datos.
+   - **JavaScript**: No tiene soporte nativo para interfaces o tipado explícito.
+
+5. **Mantenimiento**:
+   - **TypeScript**: Mejora el mantenimiento en proyectos grandes debido a su tipado estático y detección temprana de errores.
+   - **JavaScript**: Puede volverse difícil de mantener en proyectos grandes debido a su naturaleza dinámica.
